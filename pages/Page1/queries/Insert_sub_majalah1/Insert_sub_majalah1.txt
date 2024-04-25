@@ -1,0 +1,1 @@
+INSERT INTO sub_majalah (id_majalah,judul,isi,file_majalah) VALUES ('{{(JSONForm1.formData || {}).id_majalah}}','{{(JSONForm1.formData || {}).judul}}','{{(JSONForm1.formData || {}).isi}}','{{(JSONForm1.formData || {}).file_majalah}}')
